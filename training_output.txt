@@ -1,0 +1,64 @@
+I tensorflow/stream_executor/dso_loader.cc:111] successfully opened CUDA library libcublas.so locally
+I tensorflow/stream_executor/dso_loader.cc:111] successfully opened CUDA library libcudnn.so locally
+I tensorflow/stream_executor/dso_loader.cc:111] successfully opened CUDA library libcufft.so locally
+I tensorflow/stream_executor/dso_loader.cc:111] successfully opened CUDA library libcuda.so.1 locally
+I tensorflow/stream_executor/dso_loader.cc:111] successfully opened CUDA library libcurand.so locally
+I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:925] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:951] Found device 0 with properties: 
+name: TITAN X (Pascal)
+major: 6 minor: 1 memoryClockRate (GHz) 1.531
+pciBusID 0000:01:00.0
+Total memory: 11.90GiB
+Free memory: 11.32GiB
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:972] DMA: 0 
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] 0:   Y 
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:1041] Creating TensorFlow device (/gpu:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0)
+Epoch 1
+Time: 29.914 seconds
+Validation Loss = 0.470700512167
+Validation Accuracy = 0.880546771883
+
+Epoch 2
+Time: 29.374 seconds
+Validation Loss = 0.308856698107
+Validation Accuracy = 0.918698358132
+
+Epoch 3
+Time: 30.069 seconds
+Validation Loss = 0.238977819705
+Validation Accuracy = 0.939610323662
+
+Epoch 4
+Time: 29.257 seconds
+Validation Loss = 0.203365511003
+Validation Accuracy = 0.947159033046
+
+Epoch 5
+Time: 29.305 seconds
+Validation Loss = 0.174945230048
+Validation Accuracy = 0.952463531961
+
+Epoch 6
+Time: 29.428 seconds
+Validation Loss = 0.147907046261
+Validation Accuracy = 0.962154442615
+
+Epoch 7
+Time: 29.496 seconds
+Validation Loss = 0.133483801297
+Validation Accuracy = 0.966234826268
+
+Epoch 8
+Time: 29.591 seconds
+Validation Loss = 0.123730212181
+Validation Accuracy = 0.967152912666
+
+Epoch 9
+Time: 29.452 seconds
+Validation Loss = 0.116722132164
+Validation Accuracy = 0.970519228905
+
+Epoch 10
+Time: 29.275 seconds
+Validation Loss = 0.113099755518
+Validation Accuracy = 0.968785065991
